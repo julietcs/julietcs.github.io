@@ -1,0 +1,560 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ 
+ GLOBAL DECLARATION must be before MEDIA QUERIES
+ */
+
+body {
+	background-image: url(../img/StaffBackground.jpg);
+}
+
+
+.image-bg-fluid-height {
+	text-align: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	margin-left: 0px;
+	background-repeat: no-repeat;
+	background-position: center center scroll;
+	background-attachment: scroll;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: auto;
+	opacity: 1;
+	background-image: -webkit-linear-gradient(236deg,rgba(250,204,204,0.92) 1.13%,rgba(248,251,88,0.94) 18.68%,rgba(251,252,245,0.91) 38.39%,rgba(244,244,244,0.94) 55.61%,rgba(255,147,25,0.89) 77.38%,rgba(7,206,255,0.97) 100%);
+	background-image: -moz-linear-gradient(236deg,rgba(250,204,204,0.92) 1.13%,rgba(248,251,88,0.94) 18.68%,rgba(251,252,245,0.91) 38.39%,rgba(244,244,244,0.94) 55.61%,rgba(255,147,25,0.89) 77.38%,rgba(7,206,255,0.97) 100%);
+	background-image: -o-linear-gradient(236deg,rgba(250,204,204,0.92) 1.13%,rgba(248,251,88,0.94) 18.68%,rgba(251,252,245,0.91) 38.39%,rgba(244,244,244,0.94) 55.61%,rgba(255,147,25,0.89) 77.38%,rgba(7,206,255,0.97) 100%);
+	background-image: linear-gradient(214deg,rgba(250,204,204,0.92) 1.13%,rgba(248,251,88,0.94) 18.68%,rgba(251,252,245,0.91) 38.39%,rgba(244,244,244,0.94) 55.61%,rgba(255,147,25,0.89) 77.38%,rgba(7,206,255,0.97) 100%);
+	position: static;
+	top: 10px;
+	display: block;
+}
+
+.image-bg-fixed-height {
+	background-repeat: no-repeat;
+	background-position: center center scroll;
+	background-attachment: scroll;
+	height: 450px;
+	opacity: 1;
+	-webkit-box-shadow: 0px 0px 0px 0px;
+	box-shadow: 0px 0px 0px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-center {
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#logo {
+	background-color: rgba(252,251,251,0.04);
+	position: absolute;
+	z-index: 1000;
+	top: 100px;
+	margin-left: 20%;
+	width: 80%;
+	max-width: 900px;
+}
+
+#headerSize {
+	position: relative;
+	display: block;
+	opacity: 0.7;
+	height: 400px;
+	background-color: #BBE1F9;
+	margin-right: 0px;
+	z-index: 500;
+}
+
+.headBG {
+	background-image: url(../img/HeaderBG-Order2.png);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: auto 400px;
+	height: 400px;
+	margin-top: 20px;
+	z-index: 0;
+}
+
+@media (max-width:768px){
+#logo {
+	background-color: rgba(252,251,251,0.04);
+	position: absolute;
+	z-index: 1000;
+	top: 75px;
+	margin-left: 15%;
+	width:85%;
+}
+#headerSize {
+	height: 250px;
+}
+
+.headBG {
+	height: 250px;
+}
+}
+
+#brain {
+	background-image: url(../img/BrainBanner4.png), -webkit-linear-gradient(30deg,rgba(196,243,254,1.00) 0%,rgba(255,252,226,1.00) 26.57%,rgba(255,253,230,1.00) 75.20%,rgba(255,247,107,1.00) 94.74%);
+	background-image: url(../img/BrainBanner4.png), -moz-linear-gradient(30deg,rgba(196,243,254,1.00) 0%,rgba(255,252,226,1.00) 26.57%,rgba(255,253,230,1.00) 75.20%,rgba(255,247,107,1.00) 94.74%);
+	background-image: url(../img/BrainBanner4.png), -o-linear-gradient(30deg,rgba(196,243,254,1.00) 0%,rgba(255,252,226,1.00) 26.57%,rgba(255,253,230,1.00) 75.20%,rgba(255,247,107,1.00) 94.74%);
+	background-image: url(../img/BrainBanner4.png), linear-gradient(60deg,rgba(196,243,254,1.00) 0%,rgba(255,252,226,1.00) 26.57%,rgba(255,253,230,1.00) 75.20%,rgba(255,247,107,1.00) 94.74%);
+	border-spacing: 5px 5px;
+	-webkit-box-shadow: 2px 2px 10px 5px rgba(249,243,175,0.94);
+	box-shadow: 2px 2px 10px 5px rgba(249,243,175,0.94);
+; 	margin-top: 0px;
+}
+
+section {
+	padding-top: 40px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+}
+
+.section-heading {
+	margin: 30px 0;
+	font-size: 3em;
+}
+
+.section-lead {
+	margin-top: 30px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 50px;
+	font-weight: normal;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+	margin-top: 15px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 15px;
+	background-color: #19518B;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+#Einstein {
+	text-align: center;
+}
+}
+
+/*add my own*/
+.quoteStyle {
+	font-family: nueva std;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-shadow: -1px -1px 0px #000D20;
+	opacity: 0.8;
+	letter-spacing: 1.2px;
+	display: inline-block;
+	word-spacing: 1.2px;
+	color: #693E00;
+}
+
+@media (max-width:500px){
+.quoteStyle {
+	font-family: nueva std;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12pt;
+	opacity: 1;
+	display: inline-block;
+	text-shadow: 0px 0px;
+}
+}
+
+
+#Nietzsche {
+	padding-top:40px;
+	padding-bottom: 10px;
+	text-align: right;
+	margin-left: 45%;
+}
+
+#Bernstein {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin-right: 15%;
+	margin-top: 15px;
+}
+
+#Einstein {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #321700;
+}
+
+#Jobs {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 0%;
+	margin-left: 15%;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	text-shadow: -1px -1px;
+	color: #1C1030;
+}
+
+.author {
+	font-style: normal;
+	font-variant:small-caps;
+}
+
+.authorRight {
+	font-style: normal;
+	font-variant:small-caps;
+	float: right;
+	margin-right: 10px;
+}
+
+.narrower {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	min-width: 350px;
+}
+
+.narrowerVideo {
+	max-width:720px;
+}
+
+#cardList {
+	margin-bottom:50px;
+}
+
+#MusicArts {
+	background-image: url(../img/claude-monet-paintings-1889-1894-9.jpg);
+	color: #090032;
+	letter-spacing: 1px;
+	text-shadow: 1px 0px #4506BB;
+}
+
+#Story {
+	background-image: url(../img/wolf.jpg);
+	text-shadow: 1px 0px #214D00;
+	letter-spacing: 1pt;
+}
+
+#Composer {
+	background-image: url(../img/beethoven2.jpg);
+	color: #FFFEFE;
+	font-weight: bold;
+	text-shadow: 2px 2px #DE0000;
+	letter-spacing: 1.2pt;
+}
+
+.programContainer {
+	margin-bottom: 15px;
+	height: 150px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+
+.moreInfo {
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+	position:absolute;
+	top: 120px;
+	right: 20px;
+}
+
+.programDes {
+	margin-left: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+	
+.front {
+	border-radius: 15px;
+	padding: 5px;
+	-webkit-box-shadow: 2px 2px 2px 2px rgba(85,156,173,0.76);
+	box-shadow: 2px 2px 2px 2px rgba(85,156,173,0.76);
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(79,230,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(79,230,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(79,230,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(79,230,255,1.00) 100%);
+	max-width: 400px;
+}
+
+.back {
+	height: 150px;
+	border-radius: 15px;
+	background-color: rgba(158,223,250,0.69);
+	padding: 5px;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden; /*Safari*/
+	background-image: -webkit-linear-gradient(313deg,rgba(255,255,255,0.47) 0%,rgba(255,250,244,0.89) 100%);
+	background-image: linear-gradient(137deg,rgba(255,255,255,0.47) 0%,rgba(255,250,244,0.89) 100%);
+	max-width: 400px;
+}
+
+.front:hover, .back:hover {
+	background-image: -webkit-linear-gradient(132deg,rgba(255,255,255,0.74) 0%,rgba(176,232,244,1.00) 99.62%);
+	background-image: -moz-linear-gradient(132deg,rgba(255,255,255,0.74) 0%,rgba(176,232,244,1.00) 99.62%);
+	background-image: -o-linear-gradient(132deg,rgba(255,255,255,0.74) 0%,rgba(176,232,244,1.00) 99.62%);
+	background-image: linear-gradient(318deg,rgba(255,255,255,0.74) 0%,rgba(176,232,244,1.00) 99.62%);
+	cursor: pointer;
+	background-color: rgba(144,215,245,1.00);
+}
+
+#MusicArts:hover, #Story:hover, #instruments:hover, #Composer:hover, #Listening:hover {
+	background-blend-mode:lighten;
+}
+
+#Forms:hover{
+	background-blend-mode:hard-light;
+}
+
+.xxxprogramContainer:hover {
+	/*-webkit-transform: matrix(1.1, -0.1, 0, 1.2, 0, 0);
+    -o-transform: matrix(1.1, -0.1, 0, 1.2, 0, 0);
+    transform: matrix(1.1, -0.1, 0, 1.2, 0, 0);*/
+	-webkit-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotateY(360deg); /* Safari */
+	transform: rotateY(360deg);
+	transition: transform 3s;
+	 -webkit-transition: transform 3s;
+    -moz-transition:transform 3s;
+    -ms-transition:transform 3s;
+	/*background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(181,221,202,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(181,221,202,1.00) 100%);*/
+}
+.xxxprogramContainer:active {
+            transition: transform 1.5s, ease; 
+        -webkit-transition: -webkit-transform 1.5s, ease;
+        -moz-transition: -moz-transform 1.5s, ease;
+        -o-transition: -o-transform 1.5s, ease;
+}
+
+#comingSoon {
+	height: 200px;
+}
+
+
+/*Form*/
+form {
+	margin: 0 auto;
+	width: 90%;
+	border-color: rgba(231,241,240,1.00);
+	border-radius: 30px;
+	padding: 30px 10px;
+	-webkit-box-shadow: 7px 7px 10px 4px rgba(165,204,200,0.72);
+	box-shadow: 7px 7px 10px 4px rgba(165,204,200,0.72);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(183,221,223,0.82) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(183,221,223,0.82) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(183,221,223,0.82) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(183,221,223,0.82) 100%);
+}
+
+label {
+	display: inline-block;
+	width: 20%;
+	margin-top:20px;
+	margin-left:5%;
+	letter-spacing:2px;
+	vertical-align:top;
+}
+
+.inputWidth {
+	margin-top:10px;
+	margin-right: 5%;
+	padding:8px;
+	width: 60%;
+	background:#efefef;
+	border:3px solid #dedede;
+	padding:10px;
+	color:#3a3a3a;
+	display:inline-block;
+}
+
+input:focus. textarea:focus {
+	background:white;
+	color:rgba(0,0,0,1.00); 
+	border:1px solid #97d6eb;
+}
+
+textarea {
+	height: 150px;
+}
+
+#submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	height: 35x;
+	width: 100px;
+	text-align:center;
+	border-radius:10px;
+	letter-spacing: 1px;
+}
+	
+
+/*.examples {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: -webkit-transform 2s; /* Safari */
+/*    transition: transform 2s;
+}
+
+.examples:hover {
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(180deg); /* Safari */
+/*    transform: rotate(180deg);
+}*/
+
+
+	/*transition: transform 2s, ease-in;
+	-webkit-transition: -webkit-transform 2s, ease-in;
+	-moz-transition: -moz-transform 2s, ease-in;
+	-o-transition: -o-transform 2s, ease-in;*/
+#footnote {
+	color: white;
+}
+#JobContainer {
+	display: block;
+	-webkit-box-shadow: 2px 2px 10px 5px #B29771;
+	box-shadow: 2px 2px 10px 5px #B29771;
+	background-image: url(../img/playingclarinet.png);
+}
+#NiContainer {
+	-webkit-box-shadow: 1px 2px 10px 3px #9B96E0;
+	box-shadow: 1px 2px 10px 3px #9B96E0;
+	background-image: url(../img/ViolinFilter.png);
+}
+#PlaContainer {
+	-webkit-box-shadow: 1px 2px 10px 3px #948EA4;
+	box-shadow: 1px 2px 10px 3px #948EA4;
+	background-image: url(../img/plato.png);
+}
+#instruments {
+	background-image: url(../img/Intrument-Card.png);
+	text-shadow: 1px 1px 2px #5689BB;
+	letter-spacing: 1pt;
+	color: #012541;
+}
+#Forms {
+	background-image: url(../img/Analysis.png);
+	text-shadow: 0px 1px #060355;
+	letter-spacing: 1pt;
+}
+#Listening {
+	background-image: url(../img/Listening.png);
+	text-shadow: 0px 1px #DEECC3;
+	font-weight: normal;
+}
+.debutConcert {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.3em;
+	text-shadow: 2px -1px 2px rgba(171,39,41,1.00);
+	letter-spacing: 1pt;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.concertTime {
+	text-align: center;
+	text-shadow: 1px -1px rgba(248,234,234,1.00);
+	letter-spacing: 2.5px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+#concertBorder {
+	border: thin solid rgba(0,0,0,1.00);
+	text-align: center;
+	padding-bottom: 30px;
+}
+#textBox {
+	width: 85%;
+	display: inline-block;
+	padding-top: 0px;
+}
+#textBox p {
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
+
+.attnNow {
+	width: 80%;
+	height: 75px;
+	margin: 5px 5% 0px auto;
+	text-align: center;
+	font-size:1.5em;
+	text-shadow: 1px 1px 0 rgba(247,173,7,1.00);
+	animation-duration: 8s;
+	animation-name: attnNav;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	position: relative;
+	display:inline-block;
+}
+
+
+@keyframes attnNav {
+	5% {transform: scale(0.2) rotate(0deg);}
+	15% {transform: scale(1) rotate(355deg);color: rgba(35,255,224,1.00); text-shadow: 3px 2px 0 rgba(53,108,6,1.00);}
+	25% {transform: scale(1.5) skewY(-5deg) skewX(-15deg); color:rgba(207,18,18,1.00); text-shadow: 1px 1px 0px rgba(27,252,234,1.00);}
+	100% {transform:scale(1.5) skewY(-5deg) skewX(-15deg);}
+}
+
+
+
+.alignDetails {
+	position: relative;
+	margin-top: 10px;
+	margin-left:60%;
+	font-size: 1.1em;
+	font-style: italic;
+	letter-spacing: 1.2pt;
+	opacity: 0.8;
+	display: inline-block;
+}
+
+.headshot {
+	float:left;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	width:32%;
+	min-width:200px;
+}
+

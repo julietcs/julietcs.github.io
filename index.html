@@ -293,9 +293,7 @@
 
 $(document).ready(function()
 {
-//	$(window).scroll(function(){ //scroll to fixed menu
-//	$("#MenuFixed").css("top", Math.max(0, 0 - $(this).scrollTop()));
-//});
+
 
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -313,16 +311,6 @@ $(document).ready(function()
 	  axis:'y',
 	  trigger: 'click'
   });
-//
-//$(".flip-btn").click(function(){
-//          $(".programContainer").flip(true);
-//        });
-//
-//$(".unflip-btn").click(function(){
-//          $(".programContainer").parents().flip(false);
-//		});
-
-
 
 });
 
